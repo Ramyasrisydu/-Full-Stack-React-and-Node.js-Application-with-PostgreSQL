@@ -2,13 +2,19 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [How to Run](#To get started with this project, follow these steps:)
+- [To get started with this project, follow these steps:](#How to Run)
   
 
 ## Introduction
+Full-Stack-React-and-Node.js-Application-with-PostgreSQL is a full-stack web application built with React and Node.js, using a PostgreSQL database. It provides a simple yet powerful interface for managing customer records. With features like data pagination, search, and sorting, it offers users an intuitive way to interact with their data.
 
-Provide a more detailed introduction to your project. Explain what problem it solves and its main features.
-
+## Key Features
+- Create and manage customer records with ease.
+- View customer data in a paginated table format.
+- Search for customers by name or location.
+- Sort customer records by date or time.
+- Easily navigate through large datasets with pagination.
+  
 ## To get started with this project, follow these steps:
 
 ### Clone the repository:

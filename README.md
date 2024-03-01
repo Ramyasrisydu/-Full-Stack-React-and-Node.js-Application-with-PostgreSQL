@@ -1,71 +1,38 @@
-# -Full-Stack-React-and-Node.js-Application-with-PostgreSQL
+# Full-Stack-React-and-Node.js-Application-with-PostgreSQL
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+- [How to Run](#To get started with this project, follow these steps:)
+  
 
 ## Introduction
 
 Provide a more detailed introduction to your project. Explain what problem it solves and its main features.
 
-## Installation
+## To get started with this project, follow these steps:
 
-Describe how to install and set up your project. Include any prerequisites and step-by-step instructions for getting started.
+### Clone the repository:
+git clone https://github.com/syduramyasri/-Full-Stack-React-and-Node.js-Application-with-PostgreSQL.git
 
-### Backend (Node.js/Express/PostgreSQL)
+### Navigate to the project directory:
+cd your-project
 
-- Clone the repository:
-git clone https://github.com/yourusername/your-project.git
-
-markdown
-Copy code
-- Navigate to the `backend` directory:
+### Install dependencies for both backend and frontend:
 cd backend
-
-diff
-Copy code
-- Install dependencies:
+npm install
+cd ../frontend
 npm install
 
-diff
-Copy code
-- Create the PostgreSQL database:
+### Create the PostgreSQL database:
 createdb customers
 
-diff
-Copy code
-- Run the backend server:
+### Start the backend server:
+cd ../backend
+node server
+
+### Start the frontend development server:
+cd ../frontend
 npm start
 
-markdown
-Copy code
+Now you can open your web browser and visit http://localhost:3000 to view the application.
 
-### Frontend (React)
-
-- Navigate to the `frontend` directory:
-cd frontend
-
-diff
-Copy code
-- Install dependencies:
-npm install
-
-diff
-Copy code
-- Start the development server:
-npm start
-
-shell
-Copy code
-
-## Usage
-
-Explain how to use your project. Provide examples or screenshots if applicable. 
-
-## Endpoints
-
-Document the endpoints available in your backend API, including their purpose and how to use them.
